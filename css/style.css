@@ -21,10 +21,11 @@ body {
 }
 
 h1 {
+    font-size: 250%;
     color: #09003b;
     text-align: center;
-    padding-bottom: 2mm;
-    border-bottom: 1mm double rgba(9, 83, 168, 0.6);
+    padding-bottom: 1%;
+    border-bottom: 2mm double rgba(9, 83, 168, 0.6);
 }
 
 /*
@@ -49,12 +50,13 @@ on top/below one another.
     padding-bottom: 1%;
     float: left;
     width: fit-content;
-    font-size: 100%;
+    font-size: 130%;
     text-align: right;
     border: 4mm ridge rgba(211, 220, 50, .6);
 }
 
 .formDiv h4 {
+    font-size: 110%;
     margin: 5% 1% 3% 1%;
     text-align: center;
 }
@@ -64,10 +66,9 @@ A little padding inside the form so text isn't touching borders
 */
 .formDiv form {
     margin-top: 1%;
-    padding-right: 15%;
-    padding-left: 15%;
+    margin-right: auto;
+    margin-left: auto;
     width: fit-content;
-    font-size: 80%;
 }
 
 /*
@@ -83,7 +84,6 @@ All inputs need spacing to look nice
 .formDiv form input {
     margin-top: 1%;
     margin-bottom: 4%;
-    font-size: 70%;
 }
 
 /*
@@ -98,12 +98,19 @@ Center the buttons.
 }
 
 /*
+Buttons sized properly
+*/
+.formDiv form input[type="button"], .formDiv form input[type="reset"] {
+    font-size: 90%;
+}
+
+/*
 Set width for text input.. only two numbers at most is accepted for each box so there's
 no need to display more than that
 */
 .formDiv form input[type="text"] {
+    font-size: 90%;
     width: 2.25em;
-    font-size: 80%;
 }
 
 /*
@@ -112,7 +119,7 @@ Set overflow to auto so the container is scrollable when it needs to be to fit o
 #mult_container {
     margin-top: 1%;
     margin-left: 3%;
-    height: 75vh;
+    height: 70vh;
     width: auto;
     min-width: 300px;
     overflow: auto;
@@ -125,7 +132,7 @@ to make the table look nice
 */
 table {
     float: left;
-    font-size: 120%;
+    font-size: 150%;
     text-align: center;
     border-collapse: separate;
     border-spacing: 0;
