@@ -1,8 +1,8 @@
 # GUI_Assignment3
 Author: Dalton Lee<br />
 Created: Ocotober 13, at 9:00 AM<br />
-Description: This webpage creates a multiplication table completely dynamically based on parameters entered<br />
-in an HTML form.<br />
+Description: This webpage creates a multiplication table completely dynamically<br />
+based on parameters entered in an HTML form.<br />
 
 File: index.html<br />
 GUI Assignment: Creating an Interactive Dynamic Table<br />
